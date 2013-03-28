@@ -1,0 +1,8 @@
+Winsock server and client programming. Some small tests.
+
+server.cpp - one thread per connection server
+server_sel.cpp - Threadless server which uses select().
+
+client.cpp - client. Sends 10 messages.
+
+Link with ws2_32.lib
